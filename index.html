@@ -1,0 +1,28 @@
+<html><script type="text/javascript" src="p.js"></script>
+<script type="text/javascript">
+function doit() {
+  var div = document.createElement('div');
+  $('links').appendChild(div);
+  new Ajax.PeriodicalUpdater(div,'doit.cgi',{method:'post',frequency:2,decay:100,
+	parameters: {author: $F('a'), title: $F('t'), document: $F('d'), numbers: $('l').checked, ouija: $F('o'), lulu: !($('uu').checked)}
+  });
+}
+</script>
+<title>LiberStatim makes delightful Latin books to read</title>
+<body onload="javascript:new Ajax.Updater('d','cat125',{method:'get'});" style="font-family: lucida grande, verdana, sans-serif; font-size: 150%">
+<div align=right><a href='about.html'>how it works</a></div>
+<span id='links'></span><p>
+<input type='text' name='a' id='a' value='C Valerius Catullus'> author &nbsp; &mdash;  &nbsp; title <input type='text' name='t' id='t' value='One Two Five'><p>
+<textarea name='d' id='d' rows=15 cols=100>
+loading text via javascript...
+</textarea><p>
+<input type='checkbox' name='l' id='l'> <span id='poetry'>line numbers</span> &nbsp; &mdash; &nbsp; how much vocab (1-10): <input type='text' name='o' id='o' value='3' size=1><p>
+<span style="display:non"><input type='checkbox' name='uu' id='uu' checked> 8.5x11 paper<p></span>
+<input type='submit' value="make pdf" style="font-size:150%" onclick="javascript:doit()">
+<p>
+<b><center>Newest texts:</center></b><br>
+<span id='zeitgeist'></span>
+<script type="text/javascript">
+new Ajax.PeriodicalUpdater($('zeitgeist'),'zeitgeist.cgi', {frequency: 60, method: 'get'});
+</script>
+</body></html>

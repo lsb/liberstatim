@@ -1,0 +1,36 @@
+\documentclass[10pt,titlepage]{article}
+\usepackage{bigfoot,graphicx}
+\usepackage{geometry}
+\DeclareNewFootnote{df}\DeclareNewFootnote{cr}
+\newcounter{vocab}\newcounter{notes}\setcounter{notes}{0}
+\def\blankpage{\thispagestyle{empty}~\newpage}
+\def\df#1#2{\setcounter{vocab}{#1}\Footnotedf{\hskip -4pt}{\kern-4.5ex#2}}
+\def\comm{\stepcounter{notes}\setcounter{vocab}{\value{notes}}\footnotecr}
+\read16 to\papsiz
+\def\lulu{lulu }
+\ifx\papsiz\lulu\geometry{papersize={6in,9in},margin=1in}\onecolumn\else\geometry{letterpaper,margin=0.7in,top=0.35in,bottom=0.95in}\twocolumn\fi
+\begin{document}
+\parindent=0pt
+\read16 to \auteur
+\read16 to \titre
+\read16 to \ifile
+\author{\auteur}
+\title{\titre}
+\date{\tt leebutterman.com/books}
+\pagestyle{empty}
+\ifx\papsiz\lulu~\newpage~\newpage\fi
+{\Large\maketitle}
+\ifx\papsiz\lulu~\newpage\fi
+\vbox to \textheight{\vfil\parbox[c]{\textwidth}{This text was created on
+{\the\day} {\ifcase\the\month\or Jan\or Feb\or Mar\or Apr\or May\or June\or July\or Aug\or Sept\or Oct\or Nov\or Dec\fi} {\the\year}, and available at
+\\\texttt{leebutterman.com/books/{\jobname}.pdf}\,.
+\\~
+\\Copyright \the\year\ Lee Butterman, licensed under
+\\\texttt{http://creativecommons.org/licenses/by-nc-sa/3.0/}\,.
+}\vfil} \newpage
+~\newpage
+\obeylines
+\pagestyle{plain}\pagenumbering{arabic}
+\input \ifile
+\ifx\papsiz\lulu ~\newpage\pagestyle{empty}~\newpage~\fi
+\end{document}

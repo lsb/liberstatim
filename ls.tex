@@ -1,0 +1,26 @@
+\documentclass[10pt]{article}
+\usepackage{bigfoot}
+\usepackage[papersize={6in,9in},margin=1in]{geometry}
+\DeclareNewFootnote{df}\DeclareNewFootnote{cr}
+\newcounter{vocab}\newcounter{notes}\setcounter{notes}{0}
+\def\df#1#2{\setcounter{vocab}{#1}\Footnotedf{\hskip -4pt}{\kern-4.5ex#2}}
+\def\comm{\stepcounter{notes}\setcounter{vocab}{\value{notes}}\footnotecr}
+\begin{document}
+\obeylines%\twocolumn
+\parindent=0pt
+
+\thispagestyle{empty}
+\begin{centering}
+~\\\vskip2in\huge\bf C Sallusti Crispi \\ Bellum Catilinae\vskip2in Liber Statim Books 2007
+\end{centering}
+\vfill
+
+\newpage
+~
+\thispagestyle{empty}
+\newpage
+
+
+\input vg_three
+
+\end{document}

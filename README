@@ -1,0 +1,18 @@
+This is LiberStatim, an editor/reformatter of Latin texts in the style of Clyde Pharr's Aeneid: text at the top of the page, and a large section of footnoted vocabulary at the bottom.
+The web interface works under Firefox and IE.
+It can produce a single 8.5"x11" pdf, for printing simplex on common personal printers, and a 6"x9" pdf and its corresponding wrap-around cover, for printing at http://lulu.com .
+
+Using a slightly modified version of David Kastrup's bigfoot package,
+and a database of all words in the Latin Library's corpus that the Perseus 3 morphological analysis can analyze,
+the Ruby 1.6 script creates LaTeX output for the words and their footnotes.
+Because of the limitations of pdfeTeX 3.14159-0.14h, we can't change the job name, so we read in into a stub file that's copied for each job.
+
+For additional footnotes, enclose the text in @ signs.  See 09d17db0bbe3dbbf, and 09d17db0bbe3dbbf.pdf, for an example.
+
+This is an archive of LiberStatim as it appeared on Tuesday 29 May 2007.  All code is released under GPL version 2.  freqs and lemmatizer are (CC) by-nc-sa 2.5 The Perseus Project.
+
+Lee Butterman
+
+
+(This is a direct descendent of the final papers I wrote for Halpern's Eclogues/Georgics class, vgre.pdf, and Hirsch's Homer class, Spring 2006, srehom.pdf, both of which contain codewalks of an earlier 
+version of this code.)

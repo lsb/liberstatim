@@ -1,0 +1,136 @@
+This is pdfeTeX, Version 3.14159-14h-released-20010417-2.1 (Web2C 7.3.3.1) (format=pdfelatex 2002.4.12)  9 SEP 2008 13:33
+entering extended mode
+**bbd857e7296198a1cover
+(./bbd857e7296198a1cover.tex{/usr/share/texmf/pdftex/config/pdftex.cfg}
+LaTeX2e <2000/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, i
+talian, nohyphenation, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2000/05/19 v1.4b Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size12.clo
+File: size12.clo 2000/05/19 v1.4b Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\auteur=C Valerius Catullus
+
+\titre=One Two Five
+
+\vertebrae=ONE TWO FIVE
+
+\fatness=883.32
+(/usr/share/texmf/tex/latex/graphics/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(/usr/share/texmf/tex/latex/config/color.cfg)
+Package color Info: Driver file: pdftex.def on input line 125.
+
+(/usr/share/texmf/tex/latex/graphics/pdftex.def
+File: pdftex.def 2000/06/16 v0.03a graphics/color for pdftex
+\Gread@gobject=\count87
+))
+(/usr/share/texmf/tex/latex/misc/rotating.sty
+Package: rotating 1997/09/26, v2.13 Rotation package
+
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 1999/02/16 v1.0l Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf/tex/latex/base/ifthen.sty
+Package: ifthen 1999/09/10 v1.1b Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count88
+\rot@float@box=\box26
+)
+(/usr/share/texmf/tex/latex/misc/geometry.sty
+Package: geometry 1999/10/07 v2.2 Page Geometry
+\geom@cnth=\count89
+\geom@cntv=\count90
+
+(/usr/share/texmf/tex/latex/config/geometry.cfg))
+No file bbd857e7296198a1cover.aux.
+\openout1 = `bbd857e7296198a1cover.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+(/usr/share/texmf/tex/context/base/supp-pdf.tex
+(/usr/share/texmf/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Missing
+\protectiondepth=\count91
+\scratchcounter=\count92
+\scratchtoks=\toks15
+\scratchdimen=\dimen105
+\scratchskip=\skip43
+\scratchmuskip=\muskip10
+\scratchbox=\box27
+\scratchread=\read1
+\scratchwrite=\write3
+\zeropoint=\dimen106
+\nextbox=\box28
+\nextdepth=\dimen107
+\everyline=\toks16
+\!!counta=\count93
+\!!countb=\count94
+\recursecounter=\count95
+)
+loading : Context Support Macros / PDF
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\everyMPtoPDFconversion=\toks17
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <24.88> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <20.74> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 11.
+ [1
+
+{/usr/share/texmf/dvips/config/pdftex.map}] (./bbd857e7296198a1cover.aux) ) 
+Here is how much of TeX's memory you used:
+ 1176 strings out of 20345
+ 15208 string characters out of 187052
+ 61164 words of memory out of 350001
+ 4270 multiletter control sequences out of 10000+15000
+ 7588 words of font info for 27 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 10000
+ 32i,5n,30p,300b,121s stack positions out of 3000i,100n,1500p,50000b,4000s
+</us
+r/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/b
+luesky/cm/cmssbx10.pfb>
+Output written on bbd857e7296198a1cover.pdf (1 page, 9300 bytes).

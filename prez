@@ -1,0 +1,71 @@
+so i'm pretty excited to describe some software i wrote, liberstatim, that will make just for you a PDF of any latin text you want, that you can print out, and read for fun in the park. # and i 
+mean that, because there isn't as much reading for fun in latin as in french, or spanish.
+
+# also, it's compatible with the online vanity press lulu, from you can order physical books.  for example, i'm receiving on monday the very first book to come out of this, # Sallust's War of 
+Catiline, which is a # significant historical document, but also # quite a good read, and it's this i'm optimizing for, the good read.
+
+this ties # into a number of issues that we see in # classics, graphic design, and cognitive science, and also lends itself to analogies from computer science.
+
+so, commonly, reading a latin text means that you consider all of the different interpretations of scholars, all of the manuscript errors, all of the contemporaneous authors who said similar 
+things, notes on vocabulary and grammar, and the whole text is there unexcerpted, and there's lots of bits of information that are completely unnecessary.  but there do exist really fun texts to 
+read, and the format of these books is generally the same.
+
+what does it mean, to be fun to read?  personally, i'd say that it's when the text is accessible for an ambivalent audience: vocabulary, sentence structure, and subject matter are made as easy 
+as possible, while still being honest as a latin text.
+
+so, for subject material, insightful commentary can help you understand the nuances of a text when you return to it, but you can't return to it until you've already enjoyed it.  and we're 
+assuming that you're going through the effort of printing out a text to read, that someone's recommended, so someone's described why it's interesting, which inevitably entails describing the 
+content, and if the content is interesting enough for you to take time to print, we assume you'll understand the subject material well enough for a quick first pass through, so explanatory 
+footnotes for the problematic sentence The horse raced past the barn fell are unnecessary at this stage of reading.
+
+so, for sentence structure, we can rearrange the sentence in a footnote in an easier ordering, or add a few words to clarify the meaning, or take out a few, we can do quite a number of things 
+that will make a huge footnote that takes a while to read, and distracts from the text, especially if you're switching between languages.
+
+so no long cliffs notes at the bottom of the page, no long grammatical analyses, and no long discussions of what the meaning of the word "is" is, but some brief notes are useful.
+
+so why vocabulary?  if you don't know how the words fit together, their individual definitions won't make that much sense anyway.  and if you read "dog bites man" when it says "man bites dog", 
+you will get quite confused quite fast.  but, just to throw a number out, homer, who composed the iliad and odyssey from a great deal of formulae like "the wine-dark sea", even homer uses 30% of 
+the words in his vocabulary only once.  in other authors, in latin in particular, that can reach 50% or beyond.  some people try to solve the problem by memorizing sheets of words. some people 
+read from a bilingual text, latin and english on opposite pages.  some people heavily use dictionaries when they read (i'm in this third category), but it's what you'd call a cache miss.  when 
+you try to fetch a web page, if you don't have the page in your browser's cache of recently seen pages, you have to fetch it again, which takes a (comparatively) long time.  dictionaries are 
+physically inconvenient: you have to hold two books open at the same time, turn the pages of one and look through until you find the word, and go back to the first book and remember what 
+sentence you were trying to translate and how it was all fitting together.  this is much tougher than just glancing down and seeing the word on the bottom of the page.
+
+so the default of liberstatim is to have text at the top, and the definitions at the bottom.  the clyde pharr edition of vergil's aeneid does this, and it's so successful a format that they've 
+been using the same printing plates for 100 years.  note that the footnotes are a special breed of footnote; they're sorted alphabetically, not by appearance in the text, and there are no 
+explicit links to and from the text.
+also, please note that clara, at the end, without any grammatical analysis, could be either the adjective, clear, or the command, clear up, so it finds the longest common prefix of the 
+dictionary entries of the two words, and uses that instead of putting both definitions in.
+
+i've used this for vergil, homer, and sallust, and at the beginning, i experimented on myself, to see how fast i read in different formats.  it's always easier to read something the second time 
+around, so i couldn't time the same text, but instead measured lines per hour, over a few homework assignments.  i found i read 15-20 lines an hour with the printed latin text and a dictionary, 
+25-30 lines an hour with an online latin text and dictionary, 30-35 lines an hour with a bilingual edition, and 45-60 lines an hour with definitions in the footnotes.  in other words, i was 
+going 2 to 3 times as fast, with no discernable loss in comprehension (because i was tested in class, and received equivalent responses from my professors).
+
+the really surprising thing is that it was a lot more fun.  and not just in the sheer novelty of printing my own books, or of the sense of accomplishment at getting through work 3 times as fast.  
+it was substantially more enjoyable to read with a liberstatim book, versus just a big mass of text, and i think i know why.
+
+one line of poetry, specifically, refers to the preceding lines, often sets up the following lines, colors the definition of each word in context, uses allusions to external culture, depends on 
+the author's unique syntax, so when you read it, it's like being in the middle of a thought, except you're reconstructing someone else's brain, and being in the middle of their thought.
+
+it's a task that needs a lot of memory allocated to it, like doing sudoku, or programming.  you can call it "being at one with a task", or "being in flow", but the upshot is that you have a 
+limited field of attention, a loss of conscious self-awareness, control over the task, and rewards from the task.  grabbing a dictionary, thumbing through the pages, finding the specific word, 
+grabbing the latin book, refinding your place, these expand your field of attention, cause you to be quite self-aware, all distracting busywork that used to be necessary, because we couldn't 
+print ourselves better books until a few years ago.
+
+the really interesting thing is how it changes what people can read.  right now, if you know latin, and you want to just pick up a book, you can buy a bilingual text, $25 each, kind of cheating, 
+or you can buy a scholarly edition, for about as much, and get bogged down in the notes.  there's no middle ground, if you just want to read something for fun.  and that's even assuming it's in 
+print.  my undergraduate thesis advisor recently published a now-popular collection of medieval latin poetry, and he compiled it from the previous edition, that went out of print in 1850.  it's 
+too labor-intensive to create and distribute a book that maybe 10 people will want per year.  but with the internet it can be basically free.  if you connect perseus with liberstatim with lulu, 
+you've got a source of text, a text -> digital book converter, and a digital book -> physical book converter, and then everything is in print always.  the notion of "out-of-print" may no longer 
+exist; just like the notion of "missing a tv show" no longer has to exist, if you have tivo.
+
+also, i mentioned that these are customized books.  the web application i'm currently developing will allow anyone with a web browser to create a pdf from any latin text, with any additional 
+footnotes you want to write in, that appear below the chunk of definitions.  and you can start out with most popular authors, and post any new versions that you create, so that there's the 
+democracy of wikipedia, and the authoritativeness of starting out with the original versions of the texts.
+
+i think that can even provide a business model for digital libraries.  we'll eventually be able to customize any text that we want, and we can pay to get a tangible book.  the library becomes an 
+on-demand printing press, which is extremely doable in the classics, because much of what we're interested in is in the public domain, and with good graphic design, and good search engines, 
+we'll be able to radically democratize how people read.
+
+

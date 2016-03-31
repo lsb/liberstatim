@@ -1,0 +1,184 @@
+This is pdfeTeX, Version 3.14159-14h-released-20010417-2.1 (Web2C 7.3.3.1) (format=pdfelatex 2002.4.12)  9 SEP 2008 13:33
+entering extended mode
+**bbd857e7296198a1
+(./bbd857e7296198a1.tex{/usr/share/texmf/pdftex/config/pdftex.cfg}
+LaTeX2e <2000/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, i
+talian, nohyphenation, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2000/05/19 v1.4b Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size10.clo
+File: size10.clo 2000/05/19 v1.4b Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./bigfoot.sty
+Package: bigfoot 2006/01/08 1.18 makes footnotes work
+
+(/usr/share/texmf/etex/latex/misc/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count87
+) (./manyfoot.sty
+Package: manyfoot 2005/09/11 v1.10 Many Footnote Levels Package (NCC)
+ (./nccfoots.sty
+Package: nccfoots 2005/02/03 v1.2 NCC Footnotes Package (NCC)
+)
+\MFL@columnwidth=\dimen103
+)
+(./suffix.sty
+Package: suffix 2004/11/09 CVS-1.4 Variant command support
+) (./perpage.sty
+Package: perpage 2005/11/04 v1.9 Reset/sort counters per page
+\c@abspage=\count88
+)
+\footnotewidowpenalty=\count89
+\footnoteclubpenalty=\count90
+\finalfootnotewidowpenalty=\count91
+\c@FN@totalid=\count92
+\c@pp@a@FN@totalid=\count93
+\FN@id=\count94
+\FN@master=\marks1
+\FN@slave=\marks2
+\FN@color=\marks3
+\FN@outervsize=\dimen104
+\FN@vsize=\skip43
+\FN@insertions=\box26
+\FN@output=\toks14
+\FN@tempbox=\box27
+\FN@savebox=\insert233
+\FN@topmarkbox=\box28
+\FN@myvsize=\dimen105
+\bigfoottolerance=\count95
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 1999/02/16 v1.0l Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(/usr/share/texmf/tex/latex/graphics/pdftex.def
+File: pdftex.def 2000/06/16 v0.03a graphics/color for pdftex
+\Gread@gobject=\count96
+))
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
+)
+(/usr/share/texmf/tex/latex/misc/geometry.sty
+Package: geometry 1999/10/07 v2.2 Page Geometry
+\geom@cnth=\count97
+\geom@cntv=\count98
+
+(/usr/share/texmf/tex/latex/config/geometry.cfg))
+\footinsdf=\insert232
+\c@footnotedf=\count99
+\footinscr=\insert231
+\c@footnotecr=\count100
+\c@vocab=\count101
+\c@notes=\count102
+
+\papsiz=lulu
+No file bbd857e7296198a1.aux.
+\openout1 = `bbd857e7296198a1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+\FN@cache232=\box29
+\FN@cache231=\box30
+\footinsdefault=\insert230
+\c@footnotedefault=\count103
+(/usr/share/texmf/tex/context/base/supp-pdf.tex
+(/usr/share/texmf/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Missing
+\protectiondepth=\count104
+\scratchcounter=\count105
+\scratchtoks=\toks16
+\scratchdimen=\dimen108
+\scratchskip=\skip44
+\scratchmuskip=\muskip10
+\scratchbox=\box31
+\scratchread=\read1
+\scratchwrite=\write3
+\zeropoint=\dimen109
+\nextbox=\box32
+\nextdepth=\dimen110
+\everyline=\toks17
+\!!counta=\count106
+\!!countb=\count107
+\recursecounter=\count108
+)
+loading : Context Support Macros / PDF
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPtoPDFconversion=\toks18
+)
+\auteur=C Valerius Catullus
+
+\titre=One Two Five
+
+\ifile=bbd857e7296198a1.guts
+[1
+
+
+] [2]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 22.
+ [1{/usr/share/texmf/dvips/config/pdftex.map}] [1]
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 30.
+[2] [3] (./bbd857e7296198a1.guts [1] [2]) [3] [4] [5] (./bbd857e7296198a1.aux) 
+) 
+Here is how much of TeX's memory you used:
+ 1531 strings out of 20345
+ 19624 string characters out of 187052
+ 80156 words of memory out of 350001
+ 4606 multiletter control sequences out of 10000+15000
+ 7926 words of font info for 29 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 10000
+ 41i,8n,28p,424b,208s stack positions out of 3000i,100n,1500p,50000b,4000s
+</usr/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf/fonts/type
+1/bluesky/cm/cmr7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/s
+hare/texmf/fonts/type1/bluesky/cm/cmbx8.pfb></usr/share/texmf/fonts/type1/blues
+ky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmtt10.pfb></usr/shar
+e/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/
+cm/cmtt12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/te
+xmf/fonts/type1/bluesky/cm/cmr17.pfb>
+Output written on bbd857e7296198a1.pdf (11 pages, 65403 bytes).

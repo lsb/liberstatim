@@ -1,0 +1,13 @@
+\documentclass[12pt]{article}
+\read16 to \auteur
+\read16 to \titre
+\read16 to \vertebrae
+\read16 to \fatness
+\usepackage{color}\usepackage{rotating}
+\usepackage[margin=1in,top=3in,bottom=3in,papersize={\fatness pt,666pt}]{geometry}
+\begin{document}
+\pagecolor[cmyk]{0,1,1,0}\color[cmyk]{0,0,0,0}\thispagestyle{empty}\Huge\bf
+
+\noindent\parbox[c]{4in}{\hfil}\hfill\rotatebox[origin=c]{270}{\large\sffamily\vertebrae}\hfill\parbox[c]{4in}{\color[cmyk]{0,1,1,1}\flushright ~ \\\auteur\\\titre\\ ~}
+
+\end{document}
